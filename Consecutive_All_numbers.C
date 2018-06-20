@@ -9,7 +9,7 @@ int main()
     a=1;
     printf("\nEnter the nth value: ");
     scanf("%d",&b);
-    printf("\nThe even number series within %d are:\n",b);
+    printf("\nThe natural number series till %d is:\n",b);
     for(int i=1;i<=b;i++)
     {
         printf("%d ",a);
@@ -17,5 +17,5 @@ int main()
     }
     printf("\n\n");
     c=(b*(b+1))/2;
-    printf("\nThe sum of even number series within %d is: %d\n",b,c);
+    printf("\nThe sum of natural number series till %d is: %d\n",b,c);
 }
